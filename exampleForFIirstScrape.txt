@@ -1,0 +1,39 @@
+<a class="yt-simple-endpoint style-scope ytd-channel-renderer" href="/channel/UCp4oMaqaY0hIoT9jafj1g8g">
+      <div id="avatar" class="style-scope ytd-channel-renderer">
+        <yt-img-shadow height="136" width="136" class="style-scope ytd-channel-renderer no-transition" style="background-color: transparent;" loaded=""><img id="img" class="style-scope yt-img-shadow" alt="" height="136" width="136" src="https://yt3.ggpht.com/a-/ACSszfFEC_AVAOxaMuykCZqo7ZA5fLoB62ScMNx6mQ=s176-mo-c-c0xffffffff-rj-k-no"></yt-img-shadow>
+      </div>
+      <div id="info" class="style-scope ytd-channel-renderer">
+        <h3 id="channel-title" class="style-scope ytd-channel-renderer">
+          <span class="style-scope ytd-channel-renderer">1791L</span>
+          <ytd-badge-supported-renderer class="style-scope ytd-channel-renderer">
+    
+    
+      <div class="badge badge-style-type-verified style-scope ytd-badge-supported-renderer">
+        <yt-icon class="style-scope ytd-badge-supported-renderer"><svg viewBox="0 0 24 24" preserveAspectRatio="xMidYMid meet" focusable="false" class="style-scope yt-icon" style="pointer-events: none; display: block; width: 100%; height: 100%;"><g class="style-scope yt-icon">
+        <path fill-rule="evenodd" clip-rule="evenodd" d="M12,2C6.48,2,2,6.48,2,12s4.48,10,10,10s10-4.48,10-10 S17.52,2,12,2z M9.92,17.93l-4.95-4.95l2.05-2.05l2.9,2.9l7.35-7.35l2.05,2.05L9.92,17.93z" class="style-scope yt-icon"></path>
+      </g></svg>
+    
+    
+  </yt-icon>
+        <span class="style-scope ytd-badge-supported-renderer"></span>
+      <paper-tooltip role="tooltip" tabindex="-1" class="style-scope ytd-badge-supported-renderer" style="left: 713.695px; top: 144.5px;">
+    
+
+    <div id="tooltip" class="style-scope paper-tooltip hidden">
+      Verified
+    </div>
+  </paper-tooltip></div>
+    <template is="dom-repeat" id="repeat" as="badge" class="style-scope ytd-badge-supported-renderer"></template>
+  </ytd-badge-supported-renderer>
+        </h3>
+        <div id="metadata" class="style-scope ytd-channel-renderer">
+          <span id="subscribers" class="style-scope ytd-channel-renderer">286,496 subscribers</span>
+          <span id="video-count" class="style-scope ytd-channel-renderer">54 videos</span>
+        </div>
+        <yt-formatted-string id="description" class="style-scope ytd-channel-renderer">A Weekly Video Journal of Opinion 
+
+For one time donations : http://paypal.me/1791US
+Patreon : https://www.patreon.com/1791L
+Maker Support : https://www.makersupport.com/1791L</yt-formatted-string>
+      </div>
+    </a>
