@@ -11,7 +11,7 @@
 	
 	"background": {
       "scripts": ["GlobalScrape.js"],
-	  "scripts": ["WaitingForSubPage.js"],
+	//  "scripts": ["WaitingForSubPage.js"],
       "persistent": false
     },
 	
