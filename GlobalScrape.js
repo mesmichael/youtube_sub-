@@ -1,9 +1,17 @@
 <script>
+var request = new XMLHttpRequest();
+request.open(GET, "https://www.youtube.com/feed/channels");
+request.onreadystatechange = function () {
+	if(request.readyState === 4 && request.status === 200( {
+		console.log(xhr.responseText)
+	}
+}
+request.send();
 
 //get data from page still NEEDS TARGET
-var getFirst = document.getElementsByTagName('html')[0].innerHTML
+var getFirst = document.getElementsByTagName('html')[0].innerHTML;
 //splits on tags in html
-var channelLinksString = getFirst.split("yt-simple-endpoint style-scope ytd-channel-renderer") + "/videos";
+var channelLinksString = getFirst.split("yt-simple-endpoint style-scope ytd-channel-renderer");
 
 var videoData[channelLinksString.length] = {
     videoCode[]: "",
