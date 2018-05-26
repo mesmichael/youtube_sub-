@@ -10,7 +10,8 @@
 	},
 	
 	"background": {
-      "scripts": ["SubScrape.js"],
+      "scripts": ["GlobalScrape.js"],
+	  "scripts": ["WaitingForSubPage.js"],
       "persistent": false
     },
 	
