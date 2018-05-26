@@ -13,7 +13,7 @@ var videoData[channelLinksString.length] = {
 for (var i = 0; i < channelLinksString.length; i++) {
 	//get page data for each subscriber NEEDS TARGET
 	var videoInfoTxt = document.getElementsByTagName('html')[0].innerHTML
-	var dataArray = getFirst.split("<ytd-item-section-renderer class=\"style-scope ytd-section-list-renderer\">");
+	var dataArray = getFirst.split("style-scope ytd-section-list-renderer>");
 	//for each video on the page
 	var ChannelHMDLtag = /(.*video-title=\"\s+)(.*)(\s+>.*)/;
 	for (var videoNumb = 0; i < dataArray.length; i++)
