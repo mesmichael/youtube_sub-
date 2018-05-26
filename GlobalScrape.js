@@ -3,7 +3,7 @@
 //get data from page still NEEDS TARGET
 var getFirst = document.getElementsByTagName('html')[0].innerHTML
 //splits on tags in html
-var channelLinksString = getFirst.split("yt-simple-endpoint style-scope ytd-channel-renderer");
+var channelLinksString = getFirst.split("yt-simple-endpoint style-scope ytd-channel-renderer") + "/videos";
 
 var videoData[channelLinksString.length] = {
     videoCode[]: "",

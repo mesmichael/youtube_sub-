@@ -15,8 +15,10 @@ file.open("r");
 
 while (!file.eof) {
 	// read each line of text
-	subLinks += file.readln() + "\n";
+	subLinks += file.readln();
 }
+
+var channelLinksString = getFirst.split("yt-simple-endpoint style-scope ytd-channel-renderer");
 
 file.close();
 

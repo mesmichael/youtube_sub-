@@ -3,8 +3,8 @@ window.location = "https://www.youtube.com/feed/channels"
 
 var getFirst = document.getElementsByTagName('html')[0].innerHTML
 
-const var txtFile = "channelURL.txt";
-var file = new File(txtFile);
+//const var txtFile = "channelURL.txt";
+//var file = new File(txtFile);
 
 var channelLinksString = getFirst.split("yt-simple-endpoint style-scope ytd-channel-renderer");
 var outputFileText = "";
@@ -16,7 +16,7 @@ for (var i = 0; i < channelLinksString.length; i++) {
 	outputFileText = outputFileText + channelLinksString[i];
 }
 
-file.open("w");
+//file.open("w");
 for (var i = 0; i < channelLinksString.length; i++) {
 	file.writeln(channelLinksString[i]);
 }
