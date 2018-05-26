@@ -2,16 +2,17 @@
     "name": "Youtube Sub+",
     "version": "1.0",
     "description": "Tired of youtube messing with your sub box? WELL HAVE I GOT AN EXTENTION FOR YOU! This extention gets your subs and creates a feed.",
-    
-	"background": {
-    "scripts": 
-	[
-	"SubScrape.js"
 	
-	],
-    "persistent": false
+	"browser_action": 
+	{
+	"default_icon": "icon.png",
+	"default_popup": "popup.html"
 	},
 	
-	"manifest_version": 2
+	"background": {
+      "scripts": ["SubScrape.js"],
+      "persistent": false
+    },
 	
+	"manifest_version": 2
   }

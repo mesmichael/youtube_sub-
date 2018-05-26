@@ -5,7 +5,6 @@ var getFirst = document.getElementsByTagName('html')[0].innerHTML
 
 var channelLinksString = getFirst.split("yt-simple-endpoint style-scope ytd-channel-renderer");
 var outputFileText = "";
-srctext = "My cow always gives milk.";
 var ChannelHMDLtag = /(.*href=\"\s+)(.*)(\s+>.*)/;
 
 for (var i = 0; i < arrayLength; i++) {
