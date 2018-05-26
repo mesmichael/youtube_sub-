@@ -9,9 +9,9 @@ request.onreadystatechange = function () {
 		//splits on tags in html
 		var channelLinksString = getFirst.split("yt-simple-endpoint style-scope ytd-channel-renderer");
 
-		var videoData[channelLinksString.length] = {
-			videoCode[]: "",
-			videoMeteData[]: "",
+		var videoData[] = {
+			videoCode[],
+			videoMeteData[],
 		};
 
 		for (var i = 0; i < channelLinksString.length; i++) {
@@ -26,8 +26,8 @@ request.onreadystatechange = function () {
 			var ChannelHMDLtag = /(.*video-title=\"\s+)(.*)(\s+>.*)/;
 			for (var videoNumb = 0; i < dataArray.length; i++)
 			{
-				videoData[i].videoCode[videoNumb] = dataArray[videoNumb];
-				videoData[i].videoMeteData[videoNumb] = videoData[i].videoCode[videoNumb].replace(ChannelHMDLtag, "$2");
+				videoData[i].videoCode[videoNumb].push(dataArray[videoNumb]);
+				videoData[i].videoMeteData[videoNumb].push(videoData[i].videoCode[videoNumb].replace(ChannelHMDLtag, "$2"));
 			}
 		}
 			}
