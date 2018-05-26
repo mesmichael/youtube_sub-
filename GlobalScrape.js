@@ -9,10 +9,9 @@ request.onreadystatechange = function ()
 		console.log("request to feed successfull");
 		var channelLinksString = getFirst.split("yt-simple-endpoint style-scope ytd-channel-renderer");
 
-		var videoData[] = {
-		videoCode[],
-		videoMeteData[],
-		};
+		var videoCode = videos[0];
+		var videoMeteData = = meta[0];
+		
 		for (var i = 0; i < channelLinksString.length; i++) {
 		//get page data for each subscriber NEEDS TARGET
 		var videoInfoTxt = document.getElementsByTagName('html')[0].innerHTML
